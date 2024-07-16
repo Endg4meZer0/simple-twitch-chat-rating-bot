@@ -1,0 +1,39 @@
+<head>
+    <title>A simple Twitch chat rating bot</title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+</head>
+<body>
+    <h1>A simple Twitch chat rating bot</h1>
+    <hr>
+    <p>Download: <a href="stcrb_v2.0.0.zip">stcrb_v2.0.0.zip</a></p>
+    <p><b>Changelog:</b></p>
+    <ul id="changelog">
+        <li>
+            A full rewrite in Go language
+        </li>
+        <li>
+            Added config.json, allowing to configure a lot of stuff (there will be more!)
+        </li>
+    </ul>
+    <hr>
+    <h3>How to setup</h3>
+    <p>Create an email, for example, on <a href="https://outlook.com/">https://outlook.com/</a> by Microsoft since it doesn't require a mobile phone.</p>
+    <p>Using this email, create a new account on Twitch.</p>
+    <p>While on this account, make sure to follow your main channel.</p>
+    <p>Then, while still logged in the bot account, go here -> <a href="https://twitchtokengenerator.com/">https://twitchtokengenerator.com/</a>.</p>
+    <p>Here, on the appeared window, click "Bot Chat Token" and login with your bot account.</p>
+    <img src="assets/twitchtokengenerator.jpg">
+    <p>Then in the section "Generated Tokens" copy the "Access Token".</p>
+    <img src="assets/twitchtokengenerator_copyaccess.jpg">
+    <p>Now go to <code>config.json</code> inside the bot folder on your PC and paste it in <code>botOauth</code>'s value.</p>
+    <p>Set <code>botUsername</code> to the username of your bot on Twitch, and <code>channelToWatch</code> to the username of your main account on Twitch.</p>
+    <p>Now, if you launch the bot using <code>bot.exe</code>, it should work correctly.</p>
+    <h4>How to make the rating appear on my OBS?</h4>
+    <p>Pick a scene you want to add the rating on, then in the Sources section click "Add" button.</p>
+    <p>Create a new <code>Text (GDI+)</code> source.</p>
+    <p>In the opened properties check the "Read from file" mark and pick a file named <code>avrrating.txt</code> inside the bot folder.</p>
+    <p>All that's left is designing it, and that's all up to you!</p>
+    <hr>
+    <p id="tech"><b>Something broke? Contact me on Discord: <code>endg4me_</code></b></p>
+    <p id="kofi"><a>Support me on Ko-Fi</a></p>
+</body>

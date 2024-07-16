@@ -1,0 +1,42 @@
+* {
+    background-color: #17191e;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #eeeeee;
+    text-align: center;
+}
+
+code {
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 2px;
+    background-color: #212327;
+    font-size: 20px;
+}
+
+body {
+    padding: 16px;
+    font-size: 24px;
+}
+
+a {
+    font-weight: 600;
+}
+
+ul#changelog {
+    margin-left: -64px
+}
+
+ul#changelog li {
+    list-style: disc;
+    list-style-position: inside;
+    text-align: center;
+    float: center;
+}
+
+h1 {
+    margin-bottom: 16px;
+    font-size: 44px;
+}
+
+#kofi {
+    font-size: 20px;
+}
