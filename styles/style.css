@@ -40,3 +40,7 @@ h1 {
 #kofi {
     font-size: 20px;
 }
+
+p.hint {
+    font-size: 14px;
+}
